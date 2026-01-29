@@ -184,7 +184,6 @@ jobs:
         with:
           name: analysis-reports-${{ github.run_number }}
           path: |
-            src/reports/
             reports/
             logs/
           retention-days: 30
